@@ -1,5 +1,3 @@
-package ru.zvarko.test.docx;
-
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.docx4j.Docx4J;
 import org.docx4j.convert.out.FOSettings;

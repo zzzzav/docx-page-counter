@@ -1,4 +1,3 @@
-/*
 package ru.zvarko.test.docx;
 
 import fr.opensagres.poi.xwpf.converter.pdf.PdfConverter;
@@ -22,6 +21,7 @@ public class PoiParser {
     public static void main(String[] args) throws IOException {
         InputStream is = ClassLoader.getSystemClassLoader().getResourceAsStream("it_null.docx");
         XWPFDocument document = new XWPFDocument(is);
+        document.
         XWPFStyles styles = document.createStyles();
         CTSectPr ctSectPr = document.getDocument().getBody().addNewSectPr();
         CTPageSz ctPageSz = ctSectPr.addNewPgSz();
@@ -41,4 +41,3 @@ public class PoiParser {
         int i = 0;
     }
 }
-*/
